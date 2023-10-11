@@ -1,0 +1,53 @@
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.background {
+	height: 100vh;
+	background: url(bg.jpg);
+	background-position: bottom left;
+	animation: driving 15s linear infinite;
+	position: relative;
+}
+
+.airplane {
+    max-width: 250px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+
+.motorbike {
+	position: absolute;
+	left: 550px;
+	bottom: 55px;
+	width: 150px;
+}
+
+@keyframes driving {
+	from { background-position: bottom left; }
+
+	to { background-position: bottom right; }
+}
+
+
+.labels{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    background: black;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+div#first-form textarea {
+    opacity: .8;
+}
+
+#container-all {
+    padding-top: 170px;
+}
